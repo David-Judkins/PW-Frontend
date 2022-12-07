@@ -1,0 +1,37 @@
+ /* Create a profile CSS */ 
+
+.cap-options-spacing{
+    margin-bottom: 2%;
+}
+.cap-form-formatting{
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 30rem;
+    
+}
+.cap-title{
+
+    text-align:center;
+    margin-bottom: 2%;
+
+}
+.cap-submit-btn{
+     
+       margin: auto;
+       display: block;
+}
+
+/* Navbar CSS */
+.nav-item{
+    margin-right: 20px
+}
+.nav-items{
+     
+     margin-left: auto;
+     margin-right: 15px;
+
+}
+
