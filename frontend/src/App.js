@@ -5,8 +5,6 @@ import { Route, Routes, Navigate } from "react-router-dom";
  
 // We import all the components we need in our app
 import Navbar from "./components/navbar";
-
-import Edit from "./components/edit-profile";
 import Create from "./components/create-a-profile";
 import Login from "./components/login";
  
