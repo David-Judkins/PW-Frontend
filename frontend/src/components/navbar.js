@@ -11,9 +11,9 @@ export default function Navbar() {
  return (
    <div>
      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-       <NavLink className="navbar-brand " to="/">
+       {/* <NavLink className="navbar-brand " to="/">
        <img style={{"width" : 100 + '%'}} src={mainLogo}></img>
-       </NavLink>
+       </NavLink> */}
        <button
          className="navbar-toggler"
          type="button"

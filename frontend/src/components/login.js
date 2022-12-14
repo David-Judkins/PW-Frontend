@@ -27,7 +27,7 @@ export default function Login() {
     
     const configuration = {
       method: "post",
-      url: "https://data.mongodb-api.com/app/data-ffctu/endpoint/data/v1/records/login",
+      url: "https://data.mongodb-api.com/app/data-ffctu/endpoint/data/v1 /records/login",
       data: {
          ...form,
         

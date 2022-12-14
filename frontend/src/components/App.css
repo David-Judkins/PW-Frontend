@@ -18,16 +18,19 @@
     margin-bottom: 2%;
 
 }
+
 .cap-submit-btn{
      
        margin: auto;
        display: block;
 }
 
+
 /* Navbar CSS */
 .nav-item{
     margin-right: 20px
 }
+
 .nav-items{
      
      margin-left: auto;
