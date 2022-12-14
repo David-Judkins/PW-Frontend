@@ -13,9 +13,9 @@ const App = () => {
    <div>
      <Navbar />
      <Routes>
-     <Route path="/PW-Frontend" element={<Navigate to="/PW-Frontend/login"/>} />
-       <Route exact path="/PW-Frontend/login" element={<Login />} />
-       <Route exact path="/PW-Frontend/register" element={<Create />} />
+     <Route path="/" element={<Navigate to="/login"/>} />
+       <Route exact path="/login" element={<Login />} />
+       <Route exact path="/register" element={<Create />} />
      </Routes>
    </div>
  );

@@ -29,7 +29,7 @@ export default function Navbar() {
        <div className="collapse navbar-collapse" id="navbarSupportedContent">
          <ul className="navbar-nav nav-items">
            <li className="nav-item">
-             <NavLink className="nav-link" to="/PW-Frontend/register">
+             <NavLink className="nav-link" to="/register">
                Create A Profile
              </NavLink>
            </li>
