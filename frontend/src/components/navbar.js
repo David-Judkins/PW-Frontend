@@ -1,5 +1,6 @@
 import React from "react";
-import mainLogo from'./logos/logo.png';
+import mainLogo from'./logos/logo.svg';
+import "typeface-jetbrains-mono";
 // We import bootstrap to make our application look better.
 import "bootstrap/dist/css/bootstrap.css";
  
@@ -12,7 +13,7 @@ export default function Navbar() {
    <div>
      <nav className="navbar navbar-expand-lg navbar-light bg-light">
        <NavLink className="navbar-brand " to="/">
-       <img style={{"width" : 100 + '%'}} src={mainLogo}></img>
+       <img className="logo-css" src={mainLogo}></img>
        </NavLink>
        <button
          className="navbar-toggler"
@@ -30,17 +31,12 @@ export default function Navbar() {
          <ul className="navbar-nav nav-items">
            <li className="nav-item">
              <NavLink className="nav-link" to="/register">
-               Create A Profile
+               CLIMBING ALBUM
              </NavLink>
            </li>
            <li className="nav-item">
              <NavLink className="nav-link" to="/register">
-               Climbing
-             </NavLink>
-           </li>
-           <li className="nav-item">
-             <NavLink className="nav-link" to="/register">
-               Resume
+               RESUME
              </NavLink>
            </li>
          </ul>

@@ -7,6 +7,8 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Create from "./components/create-a-profile";
 import Login from "./components/login";
+import Album from "./components/photo-album";
+
  
 const App = () => {
  return (
@@ -16,6 +18,8 @@ const App = () => {
      <Route path="/" element={<Navigate to="/login"/>} />
        <Route exact path="/login" element={<Login />} />
        <Route exact path="/register" element={<Create />} />
+       <Route exact path="/album" element = {<Album />} />
+       
      </Routes>
    </div>
  );

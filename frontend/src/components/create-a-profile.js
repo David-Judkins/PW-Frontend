@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios"
 import { useNavigate } from "react-router";
+import { NavLink } from "react-router-dom";
 import './App.css';
 
 export default function Create() {
@@ -133,13 +134,17 @@ export default function Create() {
             <label htmlFor="relationshipWorkRelated" className="form-check-label">Work Related</label>
           </div>
         </div>
-        <div className="form-group">
+        <div className="d-grid gap-2 mt-3 form-group">
           <input
             type="submit"
             value="Create Profile"
             className=" cap-submit-btn btn btn-primary"
           />
+          <NavLink className="register_link" to="/login">
+           Already have a profile? Login Here
+          </NavLink>
         </div>
+        
 
       </form>
     </div>
